@@ -6,12 +6,12 @@
 
     <groupId>org.appxi</groupId>
     <artifactId>search-tika-aio</artifactId>
-    <version>22.01.01</version>
+    <version>22.02.19</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <tika.version>2.2.1</tika.version>
+        <tika.version>2.3.0</tika.version>
         <slf4j.version>2.0.0-alpha5</slf4j.version>
     </properties>
 
