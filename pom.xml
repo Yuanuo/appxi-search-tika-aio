@@ -6,13 +6,12 @@
 
     <groupId>org.appxi</groupId>
     <artifactId>search-tika-aio</artifactId>
-    <version>22.02.25</version>
+    <version>22.03.15</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
         <tika.version>2.3.0</tika.version>
-        <slf4j.version>2.0.0-alpha5</slf4j.version>
     </properties>
 
     <dependencies>
@@ -41,11 +40,6 @@
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-parser-pdf-module</artifactId>
             <version>${tika.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
