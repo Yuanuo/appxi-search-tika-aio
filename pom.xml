@@ -6,12 +6,12 @@
 
     <groupId>org.appxi</groupId>
     <artifactId>search-tika-aio</artifactId>
-    <version>22.03.15</version>
+    <version>22.05.21</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>11</maven.compiler.release>
-        <tika.version>2.3.0</tika.version>
+        <tika.version>2.4.0</tika.version>
     </properties>
 
     <dependencies>
@@ -81,6 +81,7 @@
                             <exclude>commons-io:*</exclude>
                             <exclude>commons-logging:*</exclude>
                             <exclude>org.apache.commons:commons-collections4</exclude>
+                            <exclude>org.apache.commons:commons-compress</exclude>
                             <exclude>org.apache.commons:commons-lang3</exclude>
                             <exclude>org.apache.commons:commons-math3</exclude>
                             <exclude>org.apache.logging.log4j:*</exclude>
